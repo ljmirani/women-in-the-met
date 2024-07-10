@@ -7,8 +7,8 @@ For the first Project of the Lede Program 2024 I looked into the representation 
 
 ## Data
 
-* [Data & Cleaning](homework-01/scraper.py) - the notebook, I cleaned my dataframe with pandas in.
-* [Analysis](homework-02/) - the notebook, I used the data to analyse the gender disparity in the Met Museum
+* [Data & Cleaning](Lede_P1_Data:Cleaning.ipynb)  - the notebook, I cleaned my dataframe with pandas in.
+* [Analysis](Lede_P1_Analysis.ipynb)- the notebook, I used the data to analyse the gender disparity in the Met Museum
 
 
 
