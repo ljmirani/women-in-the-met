@@ -15,7 +15,15 @@ I used the [ Met Museums API ](https://metmuseum.github.io/) to get the data nee
 
 ## Findings
 
- I found that in the last 35 years, there were no significant changes to the number of female artists in the Modern Art permanent collection - it stayed around 20 %.
+I found that in the last 35 years, there were no significant changes to the number of female artists in the Modern Art permanent collection:
+
+
+|2024|artworks in collection|1989|artworks in collection|
+|---|---|
+|Male|77,6%|Male|80,3%|
+|Female|22,4%|Female|19,7%|
+
+
 
 ## Website
 
