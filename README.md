@@ -19,7 +19,7 @@ The notebooks used for data cleaning and analysis can be found [here](https://gi
 
 ## Website
 
-[This](https://ljmirani.github.io/women-in-the-met/) is the website that I created for this project
+[This](https://ljmirani.github.io/women-in-the-met/) is the website that I created for this project.
 
 ## Contact
 
