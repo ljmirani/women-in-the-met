@@ -10,7 +10,7 @@ For the first Project of the Lede Program 2024 I looked into the representation 
 
 I used the [ Met Museums API ](https://metmuseum.github.io/) to get the data needed for the project. 
 
-* [This](https://github.com/ljmirani/Lede_Project_One_data/blob/main/Lede_P1_Data%3ACleaning.ipynb) Notebook has the code I used to clean the data
+* [This](https://github.com/ljmirani/women-in-the-met/blob/main/Lede_P1_Data%3ACleaning.ipynb) Notebook has the code I used to clean the data
 * [This](Lede_P1_Analysis.ipynb) Notebook has the code I used to analyse the data
 
 
