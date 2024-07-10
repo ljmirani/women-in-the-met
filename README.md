@@ -13,8 +13,6 @@ I used the [ Met Museums API ](https://metmuseum.github.io/) to get the data nee
 * [This](https://github.com/ljmirani/women-in-the-met/blob/main/Lede_P1_Data%3ACleaning.ipynb) Notebook has the code I used to clean the data
 * [This](Lede_P1_Analysis.ipynb) Notebook has the code I used to analyse the data
 
-
-
 ## Findings
 
  I found that in the last 35 years, there were no significant changes to the number of female artists in the Modern Art permanent collection - it stayed around 20 %.
@@ -22,6 +20,19 @@ I used the [ Met Museums API ](https://metmuseum.github.io/) to get the data nee
 ## Website
 
 [This](https://ljmirani.github.io/women-in-the-met/) is the website that I created for this project.
+
+## What I learned
+* Cleaning data in pandas
+* Making graphics, figuring out the basics of ai2html
+* Getting frustrated, but eventually working my way through Illustrator
+
+## What I would have liked to do (with more time/skills)
+* More time to make better graphics, especially for the scrolly part with the photographs
+* More time to write a decent text, that came at the very last second
+* Make a better Map
+* Scrape the Mets Website for Exhibitions in 2024/1989 to compare the number of exhibitions of female vs. male artists
+* Make a cleaner/better repository
+* (and so many other things!)
 
 ## Contact
 
