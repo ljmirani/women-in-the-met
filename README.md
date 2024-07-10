@@ -19,7 +19,7 @@ I found that in the last 35 years, there were no significant changes to the numb
 
 
 |2024|artworks in collection|1989|artworks in collection|
-|---|---|
+|---|---|---|---|
 |Male|77,6%|Male|80,3%|
 |Female|22,4%|Female|19,7%|
 
