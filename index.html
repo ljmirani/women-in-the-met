@@ -21,7 +21,7 @@
         }
 
         .content {
-            max-width: 640px;
+            max-width: 700px;
             margin: auto;
         }
 
@@ -58,10 +58,13 @@
             font-weight: bold;
             font-size: 3em;
             line-height: 1.1;
+			color: black;
         }
 
         .subhead {
             font-family:'Jost', 'Lora', Georgia, serif;
+			color: white;
+			font-weight: bold;
         }
 
     iframe,
@@ -116,14 +119,37 @@
   <script src="https://unpkg.com/intersection-observer@0.5.1/intersection-observer.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/scrollama/3.2.0/scrollama.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.3.0/d3.min.js"></script>
+
+  <style>
+	.with-image-bg,
+	.with-video-bg {
+		position: relative;
+		background-size: cover;
+		margin-bottom: 2em;
+
+		/* Center everything inside */
+		min-height: 70svh;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+
+	}
+
+	.with-image-bg {
+		background-image: url('image_title.jpg');
+	}
+</style>
 </head>
 
 <body>
+    <div class="header with-image-bg">
+        <div class="content">
+			<h1 class="pink-txt">Do Women (still) have to be naked to get into the Met ?</h1>
+            <p class="subhead pink-txt">An Analysis of the Modern Art permanent Collection of the Metropolitan Museum of Art in New York City</p>
+        </div>
+    </div>
+
   <div class="content">
-      <div class="header">
-          <h1 >Do Women (still) have to be naked to get into the Met ?</h1>
-          <p class="subhead">An Analysis of the Modern Art permanent Collection of the Metropolitan Museum of Art in New York City</p>
-      </div>
       <div class="byline">
           <p>By <a href="https://github.com/ljmirani">Jaya Mirani</a></p>
       </div>
@@ -289,7 +315,7 @@
 <p> In 1989 only about <span class="pink-txt"> 20% </span> of all artists in the Modern Art Collection identified as female (counting all works of the permanent collection whether on display or not).
   In the past 35 years this number has gone up only slightly, to <span class="pink-txt">23%</span>. 
 </p>
-<h3>Artworks in the collection </h3>
+<h3 class="pink-txt">Artworks in the collection </h3>
 <p>
 The permanent Collection of the Met Museums Modern Art Department currently houses around 15.000 artworks - I used around 13.700 in the dataset for the project.
 Of these artworks, only<span class="pink-txt"> 2197 </span> were created by women.
@@ -370,7 +396,7 @@ Of these artworks, only<span class="pink-txt"> 2197 </span> were created by wome
 
 <!-- End ai2html - 2024-07-09 14:15 -->
 
-<h3>Tracking Art Acquisitions at the Met </h3>
+<h3 class="pink-txt">Tracking Art Acquisitions at the Met </h3>
 
 <p> The Met has seemingly not done a lot in terms of aqcuisitions to change this underrepresentation. 
   Tracking the aqcuisition of artworks from the time of the Museums establishment in the 1870s until today,
@@ -522,7 +548,7 @@ Of these artworks, only<span class="pink-txt"> 2197 </span> were created by wome
 
 
 
-<h3>Highlighted Artworks </h3>
+<h3 class="pink-txt" >Highlighted Artworks </h3>
 
 
 <p>There are quite a few artworks in the permanent Collection of the Met. Not all of these works are considered "Highlights", 
@@ -625,7 +651,7 @@ Of these artworks, only<span class="pink-txt"> 2197 </span> were created by wome
 
 
 
-<h3> Top 5 female artists</h3>
+<h3 class="pink-txt"> Top 5 female artists</h3>
   
     <p> But who are the female artists featured in the Metropolitan Museum of Art's permanent collection?
     </p>
